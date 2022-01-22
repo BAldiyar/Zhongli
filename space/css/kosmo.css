@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: Montserrat;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(10, 10, 10);
+    height: 80px;
+}
+
+header a{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(146, 146, 146);
+    position: relative;
+    bottom: 25px;
+}
+
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left:0;
+    animation-name: show-header;
+    animation-duration: 1s;
+    width: 1350px;
+}
+
+.header img{
+    position: relative;
+    left: 520px;
+    top: 5px;
+    height: 70px;
+}
+
+.welcome{
+    background-image: url(../img/Космос.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+
+}
+
+.welcome-inner{
+    color: white;
+    text-align: center;
+    padding: 170px;
+}
+.welcome-inner p{
+    padding-top: 20px;
+    color: #bebebe;
+}
+
+.welcome-inner h1{
+    font-size: 48px;
+    font-family: Gruppo;
+}
+
+.kosmos{
+    background-color: black;
+    padding: 100px 0;
+} 
+
+.kosmos-inner{
+    color: white;
+}
+
+.kosmos-inner h2{
+    padding: 40px 0;
+    font-size: 36px;
+}
+
+.kosmos-info{
+    display: flex;
+    
+}
+
+.line{
+    border-top: 1px solid #999999;
+    margin: 50px 0;
+}
+
+.kosmos-info p{
+    width:40%;
+}
+
+.kosmos-info img{
+    border-radius: 40px;
+    width:50%;
+}
+
+.start{
+    background-color: rgb(7, 7, 7);
+    padding: 100px 0;
+}
+
+.start-inner{
+    color: white;
+}
+
+.start-inner h2{
+    font-size: 36px;
+    margin: 25px 0;
+}
+
+.start-info{
+    display: flex;
+}
+
+.start-info p{
+    width: 40%;
+    text-align: right;
+}
+
+.start-info img{
+    width: 50%;
+    border-radius: 40px;
+}
+
+.strelecA{
+    background-color: black;
+    padding: 70px 0;
+}
+
+.strelecA-inner h2{
+    color: white;
+    font-size: 36px;
+    padding: 50px;
+}
+
+.strelecA-info{
+    color: white;
+    display: flex;
+}
+
+.strelecA-info p{
+    width: 40%;
+}
+
+.strelecA-info img{
+    width: 40%;
+    border-radius: 40px;
+}
+
+.footer{
+    background-color: #161616;
+}
+
+.footer-content{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(131, 131, 131);
+}
+
+.footer-item a{
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-item{
+    padding: 14px 0;
+}
+
+.footer-item2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item2 a{
+    width: 130px;
+    margin-top: 5px;
+}
+
+.footer-item2 img{
+    width: 25px;
+    margin: 3px;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+    width: 160px;
+}
+
+.footer-l{
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #999999;
+    color: #999999;
+}
+
+@keyframes show-header{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 0;
+    }
+}
